@@ -9,3 +9,10 @@ git init  //initialising the git in the current folder
 O/P
 
 Initialized empty Git repository in C:/Users/sagarpan/Desktop/SampleApp/.git/
+
+//adding new add files in the git 
+
+git add .
+
+//message 
+git commit -m "Added index html and stylesheet"
