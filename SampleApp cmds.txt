@@ -1,0 +1,11 @@
+cd Desktop
+
+cd SampleApp
+
+dir /a
+
+git init  //initialising the git in the current folder
+
+O/P
+
+Initialized empty Git repository in C:/Users/sagarpan/Desktop/SampleApp/.git/
