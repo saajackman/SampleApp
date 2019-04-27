@@ -1,0 +1,39 @@
+----creating appn in local machine and making changes in the app in git-----
+
+cd Desktop
+
+cd SampleApp
+
+dir /a
+
+git init  //initialising the git in the current folder
+
+O/P
+
+Initialized empty Git repository in C:/Users/sagarpan/Desktop/SampleApp/.git/
+
+//adding new add files in the git 
+
+git add .
+
+//message 
+git commit -m "Added index html and stylesheet"
+
+git add .
+
+git commit -m "Update index file and added script"
+
+git add .
+
+git commit -m "Added theme.css"
+
+git add .
+
+git commit -m "Deleted theme.css"
+
+-----uploading the appn in public repository i.e github------
+
+----commit the code---
+
+origin : short name for url conection bw local machine and public repositiory
+
