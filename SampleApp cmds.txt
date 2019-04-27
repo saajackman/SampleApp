@@ -1,3 +1,5 @@
+----creating appn in local machine and making changes in the app in git-----
+
 cd Desktop
 
 cd SampleApp
@@ -16,3 +18,38 @@ git add .
 
 //message 
 git commit -m "Added index html and stylesheet"
+
+git add .
+
+git commit -m "Update index file and added script"
+
+git add .
+
+git commit -m "Added theme.css"
+
+git add .
+
+git commit -m "Deleted theme.css"
+
+-----uploading the appn in public repository i.e github------
+
+----commit the code---
+
+origin : short name for url conection bw local machine and public repositiory
+
+default branch : master : original copy
+
+merge : adding the modified files to previous branch or master branch with new copy 
+
+
+git branch //gives all branch 
+
+*  = current
+
+ // creates new branch named dev in the local machine
+
+git branch dev
+
+//switch to desired branch 
+git checkout dev   
+
